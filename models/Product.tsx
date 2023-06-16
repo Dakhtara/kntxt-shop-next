@@ -9,6 +9,6 @@ export default interface Product {
     price: number;
     currency: string;
     description: string;
-    varitans?: ProductVariant[];
+    variants?: ProductVariant[];
     images: ProductImage[];
 }
