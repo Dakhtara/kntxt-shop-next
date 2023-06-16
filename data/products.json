@@ -39,5 +39,29 @@
                 "alt": "EU Tour"
             }
         ]
+    },
+    {
+        "id": 3,
+        "name": "OVERDRIVE TOUR",
+        "slug": "overdrive-tour",
+        "collection": "Overdrive",
+        "price": 74.38,
+        "currency": "EUR",
+        "description": "An oversized unisex fit developed with high quality cotton. An Overdrive limited edition tee dedicated to the upcoming live shows! For men we recommend taking your standard size, for a true to fit look. Take one size up for an oversized look. For women we recommend taking your standard size for an oversized look. Take one size down for a true to fit look.\n\nUnisex\nRelaxed fit\n295 GSM jersey\n100% Cotton\nMade in Portugal\n\nThis is a pre-order product, shipping starts approximately 6 weeks after your purchase.",
+        "variants": [
+            {
+                "type": "size",
+                "name": "Size",
+                "values": ["XS","S","L","XL", "XXL"]
+            }
+        ],
+        "images": [
+            {
+                "src": "/products/overdrive_tour.jpeg",
+                "width": 2048,
+                "height": 2048,
+                "alt": "Overdrive Tour"
+            }
+        ]
     }
 ]
