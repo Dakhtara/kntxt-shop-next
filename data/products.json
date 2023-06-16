@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "EU Tour",
+        "collection": "EU Tour",
+        "price": 74.38,
+        "currency": "EUR",
+        "description": "An oversized unisex fit developed with high quality cotton. A custom made work of art! Inspired by the colours of Overdrive. Limited Edition Item.\nFor men we recommend taking your standard size, for a true to fit look. Take one size up for an oversized look. For women we recommend taking your standard size for an oversized look. Take one size down for a true to fit look.\nUnisex\nRelaxed fit\n295 GSM jersey\n100% Cotton\nDTF Print\nCustom Embroidered Patches\nMade in Portugal\n\nThis is a pre-order product, shipping starts approximately 6 weeks after your purchase.",
+        "variants": [
+            {
+                "type": "size",
+                "name": "Size",
+                "values": ["XS","S","L","XL", "XXL"]
+            }
+        ],
+        "images": [
+            {
+                "src": "/products/EU_tour.webp",
+                "width": 2048,
+                "height": 2048,
+                "alt": "EU Tour"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Overdrive EP",
+        "collection": "Overdrive",
+        "price": 19.79,
+        "currency": "EUR",
+        "description": "Tracklist:\nA1. Charlotte de Witte - Overdrive (Original Mix)\nB1. Charlotte de Witte - High Street (Original Mix)\nKNTXT021  - 12” vinyl\nThis is a pre-order product, shipping starts approximately 4-6 weeks after your purchase.",
+        "images": [
+            {
+                "src": "/products/overdrive_ep.webp",
+                "width": 2048,
+                "height": 2048,
+                "alt": "EU Tour"
+            }
+        ]
+    }
+]
