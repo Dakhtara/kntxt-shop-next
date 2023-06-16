@@ -1,9 +1,10 @@
 export type PriceProps = {
     price: number;
     currency?: string;
+    className?: string;
 }
 
-export default function Price({price, currency}: { price: number, currency: string }) {
+export default function Price({price, currency, className}: PriceProps) {
 
     const formatter = new Intl.NumberFormat('fr-FR', {
         style: 'currency',
@@ -11,6 +12,6 @@ export default function Price({price, currency}: { price: number, currency: stri
     });
 
     return (
-        <span>{formatter.format(price)}</span>
+        <span className={className}>{formatter.format(price)}</span>
     )
 }
