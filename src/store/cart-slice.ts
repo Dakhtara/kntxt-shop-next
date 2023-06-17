@@ -20,7 +20,7 @@ const cartSlice = createSlice({
                 const products = state.products.map((item) =>
                     item.id === product.payload.id
                         ? { ...item, quantity: item.quantity + 1 }
-                        : item.payload
+                        : item
                 );
                 console.log(products);
                 state.products = products;
@@ -30,7 +30,7 @@ const cartSlice = createSlice({
         },
         removeItemFromCart: (state, product) => {
             //@ts-ignore
-            state.products = state.products.filter((item) => item.id !== product.id);
+            state.products = state.products.filter((item) => item.id !== product.payload.id);
         }
     },
 });

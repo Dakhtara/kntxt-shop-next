@@ -16,7 +16,7 @@ export default function CartPageProduct() {
   function RenderCart() {
     const shippingPrice = 8.99
     const totalPrice = cartState.products.reduce(
-      (total, product) => total + product.price,
+      (total, product) => total + (product.price * product.quantity),
       0
     ) + shippingPrice;
     return (
