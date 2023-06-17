@@ -1,5 +1,5 @@
-import productData from "@/data/products.json";
-import Product from "@/models/Product";
+import productData from "@/src/data/products.json";
+import Product from "@/src/models/Product";
 
 
 export default class ProductProvider {

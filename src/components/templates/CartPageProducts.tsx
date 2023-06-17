@@ -1,6 +1,6 @@
 "use client";
 
-import { useAppSelector } from "@/store/hooks";
+import { useAppSelector } from "@/src/store/hooks";
 import ProductCartItem from "../organism/ProductCartItem";
 import Link from "next/link";
 import Button from "../atom/Button";

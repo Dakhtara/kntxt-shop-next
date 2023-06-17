@@ -1,5 +1,4 @@
-import Alert from "@/components/alert/Alert";
-import SectionProductCollection from "@/components/templates/SectionProductCollection";
+import SectionProductCollection from "@/src/components/templates/SectionProductCollection";
 
 export default function Home() {
   return (

@@ -1,4 +1,4 @@
-import ProductCart from "@/models/ProductCart";
+import ProductCart from "@/src/models/ProductCart";
 import Image from "next/image";
 import Price from "../atom/Price";
 import Link from "next/link";

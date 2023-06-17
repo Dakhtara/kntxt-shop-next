@@ -1,4 +1,4 @@
-import Product from "@/models/Product";
+import Product from "@/src/models/Product";
 import Image from "next/image";
 import Price from "../atom/Price";
 import Link from "next/link";

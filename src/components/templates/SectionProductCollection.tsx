@@ -1,4 +1,4 @@
-import ProductProvider from "@/providers/ProductProvider";
+import ProductProvider from "@/src/providers/ProductProvider";
 import ProductCard from "../organism/ProductCard";
 
 export type SectionProductCollectionProps = {

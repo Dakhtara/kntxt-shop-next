@@ -1,6 +1,6 @@
 "use client";
 
-import { useAppSelector } from "@/store/hooks";
+import { useAppSelector } from "@/src/store/hooks";
 import ShoppingCartIcon from "../icons/ShoppingCart";
 import Link from "next/link";
 

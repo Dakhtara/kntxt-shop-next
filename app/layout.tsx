@@ -2,9 +2,9 @@ import Image from "next/image";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Link from "next/link";
-import Alert from "@/components/alert/Alert";
-import HeaderCart from "@/components/templates/HeaderCart";
-import { Providers } from "@/store/provider";
+import Alert from "@/src/components/alert/Alert";
+import HeaderCart from "@/src/components/templates/HeaderCart";
+import { Providers } from "@/src/store/provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -50,7 +50,7 @@ export default function RootLayout({
               No data is persisted, when you hard refresh the page, the cart is reset.
             </Alert>
           </div>
-          
+
           {children}
 
           <footer className="container mx-auto my-24">

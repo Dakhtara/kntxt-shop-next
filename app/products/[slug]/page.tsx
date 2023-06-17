@@ -1,8 +1,8 @@
-import Price from "@/components/atom/Price";
-import AddToCartProduct from "@/components/templates/AddToCartProduct";
-import Product from "@/models/Product";
-import ProductProvider from "@/providers/ProductProvider";
-import { nl2br } from "@/utils/NlToBr";
+import Price from "@/src/components/atom/Price";
+import AddToCartProduct from "@/src/components/templates/AddToCartProduct";
+import Product from "@/src/models/Product";
+import ProductProvider from "@/src/providers/ProductProvider";
+import { nl2br } from "@/src/utils/NlToBr";
 import Image from "next/image";
 import {notFound} from "next/navigation";
 

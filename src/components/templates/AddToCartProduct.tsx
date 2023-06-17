@@ -1,10 +1,10 @@
 "use client";
 
-import Product from "@/models/Product";
+import Product from "@/src/models/Product";
 import Button from "../atom/Button";
 import Select from "../atom/Select";
-import { addItemToCart } from "@/store/cart-slice";
-import { useAppDispatch } from "@/store/hooks";
+import { addItemToCart } from "@/src/store/cart-slice";
+import { useAppDispatch } from "@/src/store/hooks";
 
 export default function AddToCartProduct({ product }: { product: Product }) {
   const dispatch = useAppDispatch();
