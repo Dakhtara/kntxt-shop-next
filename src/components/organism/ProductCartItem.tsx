@@ -18,6 +18,7 @@ export default function ProductCartItem({product}: ProductCartItemProps) {
                         <span>{variant[0]}: {variant[1]}</span>
                     </div>
                 ))}
+                <span>Quantity: {product.quantity}</span>
                 <span className="text-xl"><Price price={product.price} currency={product.currency} /></span>
             </div>
         </div>

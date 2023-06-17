@@ -12,7 +12,21 @@ const cartSlice = createSlice({
     reducers: {
         addItemToCart: (state, product) => {
             //@ts-ignore
-            state.products = [...state.products, product];
+            product.payload.quantity = 1;
+            console.log(state);
+            const existingProduct = state.products.find((item) => item.id === product.payload.id);
+            if (existingProduct) {
+                //@ts-ignore
+                const products = state.products.map((item) =>
+                    item.id === product.payload.id
+                        ? { ...item, quantity: item.quantity + 1 }
+                        : item.payload
+                );
+                console.log(products);
+                state.products = products;
+                return;
+            }
+            state.products = [...state.products, product.payload];
         },
         removeItemFromCart: (state, product) => {
             //@ts-ignore

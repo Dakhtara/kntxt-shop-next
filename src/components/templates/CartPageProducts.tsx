@@ -16,15 +16,15 @@ export default function CartPageProduct() {
   function RenderCart() {
     const shippingPrice = 8.99
     const totalPrice = cartState.products.reduce(
-      (total, product) => total + product.payload.price,
+      (total, product) => total + product.price,
       0
     ) + shippingPrice;
     return (
       <div className="grid grid-cols-[2fr_1fr]">
         <div className="flex flex-col gap-4">
           {cartState.products.map((product) => (
-            <div key={product.payload.id}>
-              <ProductCartItem product={product.payload} />
+            <div key={product.id}>
+              <ProductCartItem product={product} />
             </div>
           ))}
         </div>
