@@ -50,7 +50,14 @@ export default function RootLayout({
               No data is persisted, when you hard refresh the page, the cart is reset.
             </Alert>
           </div>
+          
           {children}
+
+          <footer className="container mx-auto my-24">
+            <span className="text-sm text-gray-400">
+              Website made with Next.js, TailwindCSS and TypeScript
+            </span>
+          </footer>
         </Providers>
       </body>
     </html>

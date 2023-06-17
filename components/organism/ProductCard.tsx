@@ -1,6 +1,6 @@
 import Product from "@/models/Product";
 import Image from "next/image";
-import Price from "../macro/Price";
+import Price from "../atom/Price";
 import Link from "next/link";
 
 export type ProductCardProps = {

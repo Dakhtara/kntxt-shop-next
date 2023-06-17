@@ -1,4 +1,4 @@
-import Price from "@/components/macro/Price";
+import Price from "@/components/atom/Price";
 import AddToCartProduct from "@/components/templates/AddToCartProduct";
 import Product from "@/models/Product";
 import ProductProvider from "@/providers/ProductProvider";

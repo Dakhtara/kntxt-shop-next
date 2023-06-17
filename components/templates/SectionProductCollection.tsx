@@ -1,5 +1,5 @@
 import ProductProvider from "@/providers/ProductProvider";
-import ProductCard from "../card/ProductCard";
+import ProductCard from "../organism/ProductCard";
 
 export type SectionProductCollectionProps = {
     title: string;

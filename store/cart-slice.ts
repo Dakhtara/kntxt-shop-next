@@ -1,11 +1,14 @@
-import Product from "@/models/Product";
-import { configureStore, createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
+interface CartState {
+    products: any[];
+}
+const initialState: CartState = {
+    products: [],
+};
 
 const cartSlice = createSlice({
     name: "cart",
-    initialState: {
-        products: <Product[]> [],
-    },
+    initialState,
     reducers: {
         addItemToCart: (state, product) => {
             //@ts-ignore

@@ -8,7 +8,7 @@ export default function Price({price, currency, className}: PriceProps) {
 
     const formatter = new Intl.NumberFormat('fr-FR', {
         style: 'currency',
-        currency: currency || 'USD',
+        currency: currency || 'EUR',
     });
 
     return (
