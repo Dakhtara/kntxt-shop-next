@@ -11,7 +11,7 @@
             {
                 "type": "size",
                 "name": "Size",
-                "values": ["XS","S","L","XL", "XXL"]
+                "values": ["XS","S","M","L","XL", "XXL"]
             }
         ],
         "images": [
@@ -52,7 +52,7 @@
             {
                 "type": "size",
                 "name": "Size",
-                "values": ["XS","S","L","XL", "XXL"]
+                "values": ["XS","S","M","L","XL", "XXL"]
             }
         ],
         "images": [
@@ -61,6 +61,102 @@
                 "width": 2048,
                 "height": 2048,
                 "alt": "Overdrive Tour"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Overdrive O/D Tee",
+        "slug": "overdrive-od-tee",
+        "collection": "Overdrive",
+        "price": 89.26,
+        "currency": "EUR",
+        "description": "An oversized unisex fit developed with high quality cotton.\rFor men we recommend taking your standard size, for a true to fit look. Take one size up for an oversized look. For women we recommend taking your standard size for an oversized look. Take one size down for a true to fit look.\r\rUnisex\rRelaxed fit\r295 GSM jersey\r100% Cotton\rMade in Portugal\r\rThis is a pre-order product, shipping starts approximately 6 weeks after your purchase.",
+        "variants": [
+            {
+                "type": "size",
+                "name": "Size",
+                "values": ["XS","S","M","L","XL", "XXL"]
+            }
+        ],
+        "images": [
+            {
+                "src": "/products/overdrive-o-d-tee.webp",
+                "width": 2048,
+                "height": 2048,
+                "alt": "Overdrive O/D Tee"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Overdrive No Time To Waste Tee",
+        "slug": "overdrive-no-time-to-waste-tee",
+        "collection": "Overdrive",
+        "price": 89.26,
+        "currency": "EUR",
+        "description": "An oversized unisex fit developed with high quality cotton.\rFor men we recommend taking your standard size, for a true to fit look. Take one size up for an oversized look. For women we recommend taking your standard size for an oversized look. Take one size down for a true to fit look.\r\rUnisex\rRelaxed fit\r295 GSM jersey\r100% Cotton\rMade in Portugal\r\rThis is a pre-order product, shipping starts approximately 6 weeks after your purchase.",
+        "variants": [
+            {
+                "type": "size",
+                "name": "Size",
+                "values": ["XS","S","M","L","XL", "XXL"]
+            }
+        ],
+        "images": [
+            {
+                "src": "/products/overdrive-no-time-to-waste-tee.webp",
+                "width": 2048,
+                "height": 2048,
+                "alt": "Overdrive No time to waste Tee"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Overdrive Living Wild & Free Tee",
+        "slug": "overdrive-living-wild-free-tee",
+        "collection": "Overdrive",
+        "price": 89.26,
+        "currency": "EUR",
+        "description":"An oversized unisex fit developed with high quality cotton. A custom made work of art! Inspired by the colours of Overdrive. Limited Edition Item.\nFor men we recommend taking your standard size, for a true to fit look. Take one size up for an oversized look. For women we recommend taking your standard size for an oversized look. Take one size down for a true to fit look.\nUnisex\nRelaxed fit\n295 GSM jersey\n100% Cotton\nDTF Print\nCustom Embroidered Patches\nMade in Portugal\n\nThis is a pre-order product, shipping starts approximately 6 weeks after your purchase.",
+        "variants": [
+            {
+                "type": "size",
+                "name": "Size",
+                "values": ["XS","S","M","L","XL", "XXL"]
+            }
+        ],
+        "images": [
+            {
+                "src": "/products/overdrive-living-wild-free-tee.webp",
+                "width": 2048,
+                "height": 2048,
+                "alt": "Overdrive Living Wild & Free Tee"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "KNTXT ’New York’ Tee",
+        "slug": "kntxt-new-york-tee",
+        "collection": "America Tour",
+        "price": 74.38,
+        "currency": "EUR",
+        "description":"An oversized unisex fit developed with high quality cotton. A custom made work of art! Inspired by the colours of Overdrive. Limited Edition Item.\nFor men we recommend taking your standard size, for a true to fit look. Take one size up for an oversized look. For women we recommend taking your standard size for an oversized look. Take one size down for a true to fit look.\nUnisex\nRelaxed fit\n295 GSM jersey\n100% Cotton\nDTF Print\nCustom Embroidered Patches\nMade in Portugal\n\nThis is a pre-order product, shipping starts approximately 6 weeks after your purchase.",
+        "variants": [
+            {
+                "type": "size",
+                "name": "Size",
+                "values": ["XS","S","M","L","XL", "XXL"]
+            }
+        ],
+        "images": [
+            {
+                "src": "/products/kntxt-new-york-tee.webp",
+                "width": 2048,
+                "height": 2048,
+                "alt": "KNTXT ’New York’ Tee"
             }
         ]
     }
