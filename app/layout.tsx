@@ -47,7 +47,8 @@ export default function RootLayout({
                 https://kntxt.shop/
               </a>
               <br />
-              No data is persisted, when you hard refresh the page, the cart is reset.
+              No data is persisted, when you hard refresh the page, the cart is
+              reset.
             </Alert>
           </div>
 
