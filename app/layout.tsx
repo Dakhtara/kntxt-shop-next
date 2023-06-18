@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className + " bg-black/90 text-white"}>
         <Providers>
-          <header className="container flex flex-col items-center justify-between mx-auto mt-8 mb-24">
+          <header className="container flex flex-col md:flex-row items-center justify-between mx-auto mt-8 mb-24">
             <Link href="/">
               <Image
                 src={"/kntxt-logo-white.png"}
