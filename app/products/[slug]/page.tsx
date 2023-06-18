@@ -35,7 +35,7 @@ export default async function Product({
 
   return (
     <main className="container mx-auto">
-      <div className="flex gap-8">
+      <div className="flex flex-col md:flex-row gap-8">
         <Image
           src={product.images[0].src}
           alt={product.images[0].alt}

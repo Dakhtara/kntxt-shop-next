@@ -20,7 +20,7 @@ export default function CartPageProduct() {
       0
     ) + shippingPrice;
     return (
-      <div className="grid grid-cols-[2fr_1fr]">
+      <div className="grid md:grid-cols-[2fr_1fr]">
         <div className="flex flex-col gap-4">
           {cartState.products.map((product) => (
             <div key={product.id}>

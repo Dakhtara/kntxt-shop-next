@@ -13,7 +13,7 @@ export default function SectionProductCollection({title, collection}: SectionPro
  return (
     <div className="flex flex-col gap-4">
     <h2 className="text-2xl">{title}</h2>
-    <div className="grid gap-4 grid-cols-4">
+    <div className="grid gap-12 md:gap-4 md:grid-cols-4">
     {productProvider.byCollection(collection).map((product) => (
       <ProductCard key={product.id} product={product} />
       ))}
