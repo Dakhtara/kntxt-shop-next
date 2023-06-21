@@ -5,6 +5,7 @@ import Link from "next/link";
 import Alert from "@/src/components/alert/Alert";
 import HeaderCart from "@/src/components/templates/HeaderCart";
 import { Providers } from "@/src/store/provider";
+import SearchBarProduct from "@/src/components/templates/SearchBarProduct";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -30,7 +31,7 @@ export default function RootLayout({
                 height={360}
               />
             </Link>
-            <span>Search bar</span>
+            <SearchBarProduct />
             <div className="flex gap-8">
               <span>Products</span>
               <HeaderCart />
