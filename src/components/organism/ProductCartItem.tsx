@@ -20,8 +20,7 @@ export default function ProductCartItem({ product }: ProductCartItemProps) {
   }
 
   return (
-    <div className="flex flex-col md:flex-row gap-4 justify-between">
-      <div className="flex flex-col md:flex-row gap-4">
+      <div className="grid grid-cols-2 gap-4">
         <Image
           src={product.images[0].src}
           className="rounded w-full"
@@ -54,6 +53,5 @@ export default function ProductCartItem({ product }: ProductCartItemProps) {
         </div>
 
       </div>
-    </div>
   );
 }
